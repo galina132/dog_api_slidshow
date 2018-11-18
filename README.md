@@ -1,6 +1,9 @@
 # Dogsshow
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
+The project use a public API: https://dog.ceo/dog-api/
+
+
 
 ## Development server
 
