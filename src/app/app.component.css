@@ -1,0 +1,14 @@
+.leftmenu {
+  width:120px;
+  height:90%;
+  overflow:auto;
+  position:absolute;
+  left:0;
+}
+.slider {
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-left:10px;
+  padding-bottom:0px;
+}

@@ -1,0 +1,25 @@
+<div class="container slider">
+  <div class="row">
+    <div width="50px" >
+      <nav class="navbar navbar-inverse leftmenu">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" routerLink="home">Breeds</a>
+          </div>
+          <div>
+            <ul class="nav navbar-nav">
+              <li *ngFor="let item of menuList" stylr="padding:0px; margin:0px;">
+                <a [routerLink]="['/dog',item]" [queryParams]="{debug: item}">{{item}}</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+
+
